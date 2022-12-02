@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Microbe', cursive;
+}
+body{
+    background-color: rgb(93, 225, 255);
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.measure{
+    display: inline;
+    margin: auto 0;
+}
+h2{
+    margin-inline: 20px;
+    text-align: center;
+}
+#prosent, #mengde, #konverter, #prosentPils{
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(108, 189, 255);
+}
+#prosent{
+    margin-left: 10px;
+}
+#prosentPils{
+    width: 50px;
+    margin-right: 5px;
+}
+.secondBox{
+    display: flex;
+}
+#konverter{
+    width: auto;
+    cursor: pointer;
+}
+#pils{
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
