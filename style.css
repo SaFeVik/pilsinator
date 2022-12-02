@@ -7,7 +7,7 @@
     font-family: 'Rubik Microbe', cursive;
 }
 body{
-    background-color: rgb(93, 225, 255);
+    background-color: rgb(151, 236, 255);
 }
 header{
     text-align: center;
@@ -32,7 +32,7 @@ h2{
     width: 70px;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(108, 189, 255);
+    background-color: rgb(173, 218, 255);
 }
 #prosent{
     margin-left: 10px;
@@ -47,6 +47,7 @@ h2{
 #konverter{
     width: auto;
     cursor: pointer;
+    color: black;
 }
 #pils{
     padding: 5px;
